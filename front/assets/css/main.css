@@ -2300,7 +2300,7 @@ header .icon.circled {
 
 #header {
 	position: relative;
-	background-image: url("../../images/header.jpg");
+	background-image: url("../../images/header.png");
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -3355,6 +3355,7 @@ body.homepage.is-preload #header:after {
 .submit {
 	width: 100%;
 	float: left;
+	margin-bottom: 30px;
 }
 
 .submit_btn {
@@ -3375,7 +3376,7 @@ body.homepage.is-preload #header:after {
 }
 
 .submit_btn:hover {
-	background-color: ef8376;
+	background-color: #ef8376;
 	transform: scale(1.03);
 }
 
@@ -3619,5 +3620,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #141414;
+	background: rgba(17, 17, 17, 0.685);
+	transform: scale(1.03);
 }
