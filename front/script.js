@@ -1,10 +1,9 @@
 let button = document.getElementById("handleSubmit");
 
 button.onclick = async function () {
-  let title = document.getElementById("title").value;
-  let description = document.getElementById("password").value;
-  let text_area = document.getElementById("text_area").value;
-  let data = { title, description, text_area };
+  let title = document.getElementById("nome").value;
+  let description = document.getElementById("email").value;
+  let data = { title, description };
 
   const response = await fetch('http://localhost:3003/api/store/task', {
     method: "POST",
